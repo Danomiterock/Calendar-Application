@@ -79,6 +79,7 @@ function makeTimeSlot(hour) {
     }
 }
 
+//add event listener for each calendar button
 $("btn1").one("click", saveApt("#text9", "description"))
 $("btn2").one("click", saveApt("#text10", "description"))
 $("btn3").one("click", saveApt("#text11", "description"))
