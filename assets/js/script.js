@@ -79,7 +79,15 @@ function makeTimeSlot(hour) {
     }
 }
 
-$("btn1").one("click", saveApt("#text1", "description"))
+$("btn1").one("click", saveApt("#text9", "description"))
+$("btn2").one("click", saveApt("#text10", "description"))
+$("btn3").one("click", saveApt("#text11", "description"))
+$("btn4").one("click", saveApt("#text12", "description"))
+$("btn5").one("click", saveApt("#text13", "description"))
+$("btn6").one("click", saveApt("#text14", "description"))
+$("btn7").one("click", saveApt("#text15", "description"))
+$("btn8").one("click", saveApt("#text16", "description"))
+$("btn9").one("click", saveApt("#text17", "description"))
 
 //function to save appointment information to local storage
 function saveApt(event){
