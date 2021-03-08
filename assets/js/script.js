@@ -84,7 +84,7 @@ $("btn1").one("click", saveApt("#text9", "description"))
 $("btn2").one("click", saveApt("#text10", "description"))
 $("btn3").one("click", saveApt("#text11", "description"))
 $("btn4").one("click", saveApt("#text12", "description"))
-$("btn5").one("click", saveApt("#text13", "description"))
+$("btn5").one("click", saveApt("#text13", "description"))   
 $("btn6").one("click", saveApt("#text14", "description"))
 $("btn7").one("click", saveApt("#text15", "description"))
 $("btn8").one("click", saveApt("#text16", "description"))
@@ -102,6 +102,11 @@ function addUserInput(event){
     localStorage.setItem(inpKey1 && inpValue1, JSON.stringify);
     return(localStorage);
    }
+
+//    function pastFuture(diff, output) {
+//     var format = this._relativeTime[diff > 0 ? "future" : "past"];
+//     return isFunction(format) ? format(output) : format.replace(/%s/i, output);
+// }
 
 // Set key/value pairs with class rel 9am
 var inpKey1 = document.getElementsById("#9");
