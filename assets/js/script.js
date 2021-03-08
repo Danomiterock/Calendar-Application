@@ -109,9 +109,9 @@ function addUserInput(event){
 // }
 
 // Set key/value pairs with class rel 9am
-var inpKey1 = document.getElementsById("#9");
+var inpKey1 = document.getElementsById("#h9");
 var inpValue1 = document.getElementById("#text9");
-document.getElementById("#btn1").addEventListener("click", addUserInput1())
+document.getElementById("#btn1").addEventListener("click", addUserInput())
     
 console.log("");
 
